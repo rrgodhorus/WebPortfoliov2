@@ -18,6 +18,12 @@ body{
     
 }
 
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
 
 .navbar-default .navbar-brand {
@@ -53,7 +59,9 @@ body{
 	vertical-align: baseline;
 	max-width: 100%;
 	width: 30%;
+	min-width: 30%;
 	height:40%;
+	min-height: 40%;
 	text-align: center;
 	margin-top: 10vh;
 	border-radius: 25%;
@@ -87,6 +95,12 @@ p{
 }
 
 #About{
+	background-color: #aaaaaa;
+	font-size: 3em;
+	color: black;
+
+}
+#Skills{
 	background-color: #aaaaaa;
 	font-size: 3em;
 	color: black;
