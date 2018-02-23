@@ -1,0 +1,181 @@
+html{
+	min-height: 100%;
+}
+body{
+	background: #19191b no-repeat;
+    background-image: url("hero-bg.jpg");
+    background-size:cover;
+    font-family: Times;
+    min-height: 100%;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.navbg{
+
+		background-color: rgba(0,0,0,60%);
+		max-height: 30%;
+    
+}
+
+
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-family: Times;
+    font-size: 3rem;
+}
+
+.ulfnt{
+	font-size: 3rem;
+	color:white;
+}
+
+.subscript{
+		font-size: 1.8rem;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: 'Bellefair', serif; 
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #5000ff;
+}
+
+
+.my_photo{
+	margin: 20% 30%;
+	border: 4px solid black;
+	vertical-align: baseline;
+	max-width: 100%;
+	width: 30%;
+	height:40%;
+	text-align: center;
+	margin-top: 10vh;
+	border-radius: 25%;
+	margin-bottom: 10px;
+
+}
+
+.h1mod{
+	color: white;
+	font-family:cursive;
+	font-size: 3.0em;
+}
+
+.h2mod{
+	color: white;
+	font-family:cursive;
+	font-size: 2em;
+}
+
+
+p{
+	padding-top: 10px;
+	font-family: 'Kavivanar', cursive;
+	font-size: 1.7em;
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 1.8em;
+	background-color: rgba(0,0,0,60%);
+
+}
+
+#About{
+	background-color: #aaaaaa;
+	font-size: 3em;
+	color: black;
+
+}
+
+#intro{
+	font-size: 2em;
+	color: brown;
+	
+}
+
+#Projects{
+	background-color: #aaaaaa;
+	font-size: 3em;
+	color: black;
+}
+
+#Contact {
+	background-color: #aaaaaa;
+	font-size: 3em;
+	color: black;
+}
+.rem_app{
+
+	margin-left: 35%;
+	border: 4px solid black;
+	vertical-align: baseline;
+	max-width: 100%;
+	width: 30%;
+	height:40%;
+	margin-top: 10vh;
+	margin-bottom: 10px;
+
+}
+.rem_h{
+	display: inline-block;
+	color: #2C3Eff;
+	background-color: rgba(0,0,0,60%);
+	text-align: center;
+	font-size: 3.5em;
+}
+
+.hangman2{
+
+	margin-left:35%;
+	border: 4px solid black;
+	vertical-align: baseline;
+	max-width: 100%;
+	width: 30%;
+	height:350px;
+	margin-top: 10vh;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+.impcontact{
+				background: transparent;
+				min-height: 30px; 	
+				min-width: 60%;
+				text-align: center;
+				font-size: 3em;
+
+
+}
+
+.formbg{
+	background-color: rgba(0,0,0,60%);
+}
+
+#text_area{
+	min-height: 300px;
+}
+.subbtn{
+
+			min-height: 30px;
+			min-width: 20%;
+			text-align: center;
+			font-size: 3em;
+			color: black;
+			display: inline-block;
+			border-radius: 30px;
+}
+
+.subbtn:hover{
+	background-color: black;
+	color: white;
+}
+
+.footbg{
+	background-color: rgba(0,0,0,60%);
+}
