@@ -90,14 +90,23 @@ ul{
 	font-size: 1.5em;
 }
 
+.h3mod{
+	color: white;
+	font-family:cursive;
+	font-size: 1.7em;
+	color: cyan;
+}
+
+.aboutpara{
+		background-color: rgba(0,0,0,0.6);
+}
 
 p{
-	padding-top: 10px;
+	margin: 0;
+	padding: 0;
 	font-family: 'Kavivanar', cursive;
 	font-size: 1.7em;
-	display: inline-block;
-	margin-left: 20px;
-	margin-right: 20px;
+	display: block;
 	line-height: 1.8em;
 	background-color: rgba(0,0,0,0.6);
 
@@ -142,7 +151,6 @@ p{
 	width: 30em;
 	height:auto;
 	margin-top: 5em;
-	margin-left: 5em
 	margin-bottom: 10px;
 
 }
@@ -205,3 +213,7 @@ p{
 	background-color: rgba(0,0,0,0.6);
 }
 
+.foot2{
+		margin-top: 0.5em;
+		font-size: 2em;
+}*/
