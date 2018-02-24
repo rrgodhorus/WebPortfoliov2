@@ -112,7 +112,7 @@ ul{
 
 p{
 	margin: 0;
-	padding: 0;
+	padding-top: 0.5em;
 	font-family: 'Kavivanar', cursive;
 	font-size: 1.7em;
 	display: block;
@@ -125,6 +125,7 @@ p{
 	background-color: #aaaaaa;
 	font-size: 3em;
 	color: black;
+	
 
 }
 #Skills{
@@ -135,7 +136,7 @@ p{
 }
 
 #intro{
-	font-size: 2em;
+	font-size: 1.7em;
 	color: brown;
 	
 }
