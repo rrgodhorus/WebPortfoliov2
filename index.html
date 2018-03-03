@@ -15,7 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="style2.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  	<style type="text/css">
+  	<style>
   		.navbar{
   			margin: 0;
   		}	  	
@@ -55,10 +55,11 @@
     	
       <div class="row">
       		<div class="col-md-12">
-      			  <img src="my_photo.jpg" class="my_photo">
+      			  <img src="my_photo.jpg" class="my_photo" alt="my_photo">
           </div>
           <div class="col-md-12">
       		      <h1 class="h1mod">RAJATH REGHUNATH</h1>
+      		      <br>
       		      <h2 class="h2mod">STUDENT | ANDROID &amp; WEB DEVELOPER</h2></div>
           </div>
         </div>
@@ -66,18 +67,18 @@
     <br>
 
     <!--About-->
-     <div class=" text-center">
+     <div class="container-fluid text-center">
       	<div class="row" >
       		<div class="col-md-12 text-center" id="About">About</div>
-      	
-      		<div class="col-md-12">
+      		<div class="w-100"></div>
+      		<div class="col-md-12" style="padding: 0;">
       			<p class="text-center">
         				Hi, I'm <span id="intro">Rajath.</span><br>I'm currently a freshman pursuing B.E Computer Science at BITS Pilani,Goa,India.<br>I was introduced to programming by a beloved senior many years ago.It didn't take long for it to grow from a passing interest to a full-fledged hobby.I love developing mobile applications for android using Android Studio.I'm interested in backend development for web applications.In my spare time I like to go deep into the inner workings of different languages and how they interact with hardware.Apart from doing computer stuff, I take an interest in foreign politics, am an avid reader and a gourmand.
       			</p>
       		</div>
-     </div>
-    
+     	</div>    
     </div>
+    
     
 
     <div class="container-fluid">
@@ -87,136 +88,147 @@
         <div class="w-100"></div>
         <div class="col-md-6 text-center">
               <h3 class="text-center rem_h" >REMINDER APP</h3>
-              <a class="text-center" href="https://github.com/rrgodhorus/ReminderApp.git" target="_blank"><img src="reminder_app.png" class="rem_app "></a>
-          </div>
-          <div class="col-md-6 text-center">
+              <a class="text-center" href="https://github.com/rrgodhorus/ReminderApp.git" target="_blank"><img src="reminder_app.png" class="rem_app" alt="The Reminder App"></a>
+         </div>
+        <div class="col-md-6 text-center">
               <h3 class="text-center rem_h">HANGMAN GAME in TurboC++</h3>
-              <a class="text-center" href="https://github.com/rrgodhorus/HangMan-TurboC-.git" target="_blank"><img src="hangman2.png" class="hangman2 "></a>
-          </div>
+              <a class="text-center" href="https://github.com/rrgodhorus/HangMan-TurboC-.git" target="_blank"><img src="hangman2.png" class="hangman2" alt="The Reminder App"></a>
+        </div>
         
         </div>
-      </div>
-      
-      
-      
-      
-      <div class="row text-center"  id="Skills">
-      <div class="col-md-12">Skills</div>
-      </div>
-      <div class="row text-center" style="background-color: rgba(0,0,0,0.6);">
-      <div class="col-md-12" >
-      <ul style="padding-top: 1em;">
-      	<li><h2>C++</h2></li>
-      	<li><h2>Java</h2></li>
-      	<li><h2>Python</h2></li>
-      	<li><h2>C</h2></li>
-        <li><h2>HTML/CSS3</h2></li>
-        <li><h2>Javascript</h2></li>
-      	<li><h2>Android Studio</h2></li>
-      	<li><h2>VCS using Git</h2></li>
-      	<li><h2>Linux CLI</h2></li>
-      </ul>
-      			
     </div>
-    </div>
+      
+      
+      
+      
+      <div class="container-fluid">
+      	<div class="row text-center"  id="Skills">
+            <div class="col-md-12">Skills</div>
+            </div>
+            <div class="row text-center" style="background-color: rgba(0,0,0,0.6);">
+            <div class="col-md-12" >
+            <ul style="padding-top: 1em;">
+            	<li><h2>C++</h2></li>
+            	<li><h2>Java</h2></li>
+            	<li><h2>Python</h2></li>
+            	<li><h2>C</h2></li>
+              <li><h2>HTML/CSS3</h2></li>
+              <li><h2>Javascript</h2></li>
+            	<li><h2>Android Studio</h2></li>
+            	<li><h2>VCS using Git</h2></li>
+            	<li><h2>Linux CLI</h2></li>
+            </ul>
+            			
+          </div>
+          </div>
+      </div>
     
 
       
         
-        <div class="row"  id="Contact">
-          <div class="col-md-12">
-            <h1 class="text-center">Contact</h1>
-          </div>
-
-        </div>
-          <div class="row">
-            <div class="col-md-12 text-center">
-              
-              <form action="sendmail.php" class="text-center formbg">
-                <br><br>
-                <input class="impcontact" type="text" name="Name" placeholder="Name">
-                <br><br>
-                <input  class="impcontact" type="email" name="Email" placeholder="Email Address">
-                <br><br>
-                <input class="impcontact" type="tel" name="phone" placeholder="Phone Number">
-                <br><br>
-                <input class="impcontact" id="text_area" type="address" name="Address" placeholder="Address">
-                <br><br>
-                <input class="subbtn" type="submit" name="Submit" value="Send">
-                <br><br>
-                <br><br>
-                 
-              </form>
+        <div class="container-fluid">
+        	<div class="row"  id="Contact">
+                  <div class="col-md-12">
+                    <h1 class="text-center">Contact</h1>
+                  </div>
+        
+                </div>
+                  <div class="row">
+                    <div class="col-md-12 text-center" style="padding: 0;">
+                      
+                      <form action="sendmail.php" class="text-center formbg">
+                        <br><br>
+                        <input class="impcontact" type="text" name="Name" placeholder="Name">
+                        <br><br>
+                        <input  class="impcontact" type="email" name="Email" placeholder="Email Address">
+                        <br><br>
+                        <input class="impcontact" type="tel" name="phone" placeholder="Phone Number">
+                        <br><br>
+                        <input class="impcontact" id="text_area" type="address" name="Address" placeholder="Address">
+                        <br><br>
+                        <input class="subbtn" type="submit" name="Submit" value="Send">
+                        <br><br>
+                        <br><br>
+                         
+                      </form>
+                    </div>
+                </div>
             </div>
-          </div>
         
       
 
-      <div class="">
+      <div class="container-fluid">
       <div class="row">
       	<div class="col-md-12" style="background-color: #cccccc;height: 2em;"></div>
       </div>
       </div>
 
-      <footer class="text-center">
-          <div class="footer-above">
-            <div class="">
-              <div class="row footbg">
-
-
-                <div class="footer-col col-md-4">
-                    <h2 class="h3mod">Address</h2>
-                    <br>
-                    <p>
-                       313,CH3,<br>
-                       BITS PILANI KK BIRLA<br>
-                       GOA CAMPUS,<br>
-                       NH 17B, Bypass Road, Zuarinagar,<br>
-                       Sancoale, Goa,India-403726
-                    </p>
-                    <br>
+    
+      	<footer class="text-center">
+                <div class="container-fluid">
+                	<div class="footer-above">
+                                  <div class="">
+                                    <div class="row footbg">
+                      
+                      
+                                      <div class="footer-col col-md-4">
+                                          <h2 class="h3mod">Address</h2>
+                                          <br>
+                                          <p>
+                                             313,CH3,<br>
+                                             BITS PILANI KK BIRLA<br>
+                                             GOA CAMPUS,<br>
+                                             NH 17B, Bypass Road, Zuarinagar,<br>
+                                             Sancoale, Goa,India-403726
+                                          </p>
+                                          <br>
+                                      </div>
+                      
+                                      <div class="footer-col col-md-4">
+                                        <h2 class="h3mod">Find me on :</h2>
+                                        <br>
+                                        <ul class="list-inline">
+                                                  <li >
+                                                      <a href="https://www.facebook.com/rajath.reghunath" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-facebook-square" style="font-size: 48px;"></i></a>
+                                                  </li>
+                                                  <br><br>
+                                                  <li>
+                                                      <a href="https://github.com/rrgodhorus" class="btn-social btn-outline"><span class="sr-only">Github</span><i class="fa fa-fw fa-github" style="font-size: 48px;"></i></a>
+                                                  </li>
+                                                  <br><br>
+                                                  <li>
+                                                      <a href="https://www.instagram.com/rajathreghunath" class="btn-social btn-outline"><span class="sr-only">Instagram</span><i class="fa fa-instagram" style="font-size: 48px;"></i></a>
+                                                  </li>
+                                        </ul>
+                                        <br>
+                                      </div>
+                      
+                                      <div class="footer-col col-md-4">
+                                        <h2 class="h3mod">Contact:</h2>
+                                        <br>
+                                        <p><a href="tel:+919656542056">+91 9656542056</a></p>
+                                        <br>
+                                        <p><a href="email:rrgodhorus@gmail.com">rrgodhorus@gmail.com</a></p>
+                                        <br>
+                                      </div>
+                      
+                      
+                                  </div>
+                      
+                                  </div>
+                                </div>
+                </div>
+      			
+                <div class="container-fluid"  style="background-color: rgb(50,50,50);padding-bottom: 1em;">
+                	<div class="footer-below text-center">
+                                <div class="row">
+                                		<div class="col-md-12  foot2">---Website developed by Rajath Reghunath---</div>
+                                </div>
+                    </div>
                 </div>
 
-                <div class="footer-col col-md-4">
-                  <h2 class="h3mod">Find me on :</h2>
-                  <br>
-                  <ul class="list-inline">
-                            <li >
-                                <a href="https://www.facebook.com/rajath.reghunath" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-facebook-square" style="font-size: 48px;"></i></a>
-                            </li>
-                            <br><br>
-                            <li>
-                                <a href="https://github.com/rrgodhorus" class="btn-social btn-outline"><span class="sr-only">Github</span><i class="fa fa-fw fa-github" style="font-size: 48px;"></i></a>
-                            </li>
-                            <br><br>
-                            <li>
-                                <a href="https://www.instagram.com/rajathreghunath" class="btn-social btn-outline"><span class="sr-only">Instagram</span><i class="fa fa-instagram" style="font-size: 48px;"></i></a>
-                            </li>
-                  </ul>
-                  <br>
-                </div>
-
-                <div class="footer-col col-md-4">
-                  <h2 class="h3mod">Contact:</h2>
-                  <br>
-                  <p><a href="tel:+919656542056">+91 9656542056</a></p>
-                  <br>
-                  <p><a href="email:rrgodhorus@gmail.com">rrgodhorus@gmail.com</a></p>
-                  <br>
-                </div>
-
-
-            </div>
-
-            </div>
-          </div>
-
-          <div class="footer-below text-center" style="background-color: rgb(50,50,50);height: 5em;">
-          	<div class="row">
-          		<div class="col-md-12  foot2">---Website developed by Rajath Reghunath---</div>
-          </div>
-      	  </div>
-      </footer>
+            </footer>
+    
 
 
 		
