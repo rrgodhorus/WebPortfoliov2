@@ -1,6 +1,6 @@
 html{
 	min-height: 100%;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 body{
 	background: #19191b no-repeat;
@@ -224,7 +224,7 @@ p{
 }
 
 .foot2{
-		margin-top: 1.5rem;
+		padding-top: 1.5rem;
 		font-size: 1.8rem;
 }
 
